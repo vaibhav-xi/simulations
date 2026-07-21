@@ -101,7 +101,7 @@ def main():
     pygame.mixer.pre_init(SAMPLE_RATE, -16, 2, 256)
     pygame.init()
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
-    pygame.display.set_caption("Ball in a Circle")
+    pygame.display.set_caption("Last BrainCell")
     clock = pygame.time.Clock()
     font = pygame.font.SysFont(None, 28)
 
